@@ -48,8 +48,12 @@ header > h2 {
     color: #F2F2F2;
 }
 
+div {
+    display: block;
+}
+
 #div2 {
-    background-image: linear-gradient(to top,#1A2026,#3d454e);
+    background-color: #5f758b;
 }
 
 #div2 > main {
@@ -58,6 +62,62 @@ header > h2 {
 }
 
 #div2 > main h1 {
+    padding: 20px;
     font-family: 'idroid';
     text-align: center;
+    color: #2e3741;
 }
+
+#div2 > main h2 {
+    margin: 20px 10px;
+    padding: 0px 20px;
+    font-family: 'idroid';
+    text-align: justify;
+    color: #2e3741;
+    background-image: linear-gradient(to right,#7a93ac77,#aec5de7c);
+}
+
+#div2 > main p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin: 0px 20px;
+    text-indent: 30px;
+}
+
+#div2 > main a {
+    text-decoration: none;
+    font-weight: 750;
+    color: #1A2026;
+}
+
+#div2 > main a:hover {
+    background-color: #2e3741;
+    color: #BF9E75;
+}
+
+#div2 > main span {
+    text-decoration: none;
+    font-weight: 750;
+    color: #1A2026;
+}
+
+div.video {
+    background-color: #1A2026;
+    margin: 0px 0px 30px 0px;
+    padding: 20px;
+    position: relative;
+}
+
+footer {
+    background-color: #1A2026;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #F2F2F2;
+    margin: 0px;
+    padding: 30px;
+}
+
+footer > p {
+    margin: 0px;
+}
+
