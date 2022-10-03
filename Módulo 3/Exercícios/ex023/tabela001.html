@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 550px;
+            border-collapse: collapse;
+            height: 550px;
+        }
+
+        tr.linha {
+            background-color: lightgray;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        tr.total {
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha primeira tabela</h1>
+    <table>
+        <!--
+            
+            Hierarquia de tabelas simples
+
+            1 - Table
+                2 - Table row = linha de tabela
+                    3 - Table header = cabeçalho de tabela
+                    4 - Table data = dado de tabela
+        
+        -->
+
+        <tr class="total"> <!--Primeira linha -->
+            <td>Posição IDH</td>
+            <td>Município</td>
+            <td>JAIR BOLSONARO</td>
+            <td>LULA</td>
+        </tr>
+        <tr class="linha">
+            <td>1</td>
+            <td>São Caetano do Sul</td>
+            <td>57.617</td>
+            <td>38.172</td>
+        </tr>
+        <TR>
+            <td>2</td>
+            <td>Águas de São Pedro</td>
+            <td>1.846</td>
+            <td>898</td>
+        </TR>
+        <tr class="linha">
+            <td>3</td>
+            <td>Florianópolis</td>
+            <td>146.358</td>
+            <td>135.981</td>
+        </tr>
+        <TR>
+            <td>4</td>
+            <td>Balneário Camboriú</td>
+            <td>55.235</td>
+            <td>19.270</td>
+        </TR>
+        <tr class="linha">
+            <td>5</td>
+            <td>Vitória</td>
+            <td>102.641</td>
+            <td>89.301</td>
+        </tr>
+        <TR>
+            <td>6</td>
+            <td>Santos</td>
+            <td>126.156</td>
+            <td>99.198</td>
+        </TR>
+        <tr class="linha">
+            <td>7</td>
+            <td>Niterói</td>
+            <td>135.810</td>
+            <td>147.370</td>
+        </tr>
+        <TR>
+            <td>8</td>
+            <td>Joaçaba</td>
+            <td>11.593</td>
+            <td>4.691</td>
+        </TR>
+        <tr class="linha">
+            <td>9</td>
+            <td>Brasília</td>
+            <td>910.397</td>
+            <td>649.534</td>
+        </tr>
+        <TR>
+            <td>10</td>
+            <td>Curitiba</td>
+            <td>612.309</td>
+            <td>348.166</td>
+        </TR>
+        <tr class="linha total">
+            <td> </td>
+            <td>TOTAL</td>
+            <td>2.159.962</td>
+            <td>1.532.581</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
