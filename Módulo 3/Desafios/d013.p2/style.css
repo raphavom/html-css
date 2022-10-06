@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+caption {
+    font-size: 1.3em;
+    padding: 10px;
+    font-weight: bold;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.cabecalho {
+    background-color: rgb(114, 114, 114);
+    color: white;
+}
+
+.menor {
+    padding: 5px;
+}
