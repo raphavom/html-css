@@ -66,6 +66,15 @@ p{
   background: #fff;
 }
 
+.introducao h1 {
+  font-size: 2rem;
+}
+
+.introducao-cover img {
+  object-fit: cover;
+  height: 100%;
+}
+
 .detalhe {
   width: 60px;
   height: 4px;
@@ -74,6 +83,8 @@ p{
   top: 30px;
   right: -30px;
 }
+
+
 
 .botao {
   background: #e21;
@@ -90,6 +101,7 @@ p{
   text-align: right;
   padding: 40px;
   align-self: center;
+ /* word-break: break-all;*/
 }
 
 .vantagens {
@@ -121,4 +133,11 @@ p{
   padding: 40px;
   width: 100%;
   box-sizing: border-box;
+}
+
+@media (max-width: 850px) {
+  .conteudo-vantagem {
+    grid-template-columns: 1fr;
+  }
+
 }
